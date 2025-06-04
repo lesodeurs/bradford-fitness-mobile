@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "name": "Bradford Fitness AI",
+    "slug": "bradford-fitness-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bradfordfitness.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to scan nutrition labels and track fitness progress.",
+        "NSPhotoLibraryUsageDescription": "This app accesses your photo library to save and share fitness progress photos.",
+        "NSHealthShareUsageDescription": "This app integrates with HealthKit to track your fitness data and provide personalized recommendations.",
+        "NSHealthUpdateUsageDescription": "This app updates your health data to keep track of workouts and nutrition."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.bradfordfitness.app",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "ACCESS_NETWORK_STATE",
+        "INTERNET"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bradford-fitness-ai"
+      }
+    },
+    "owner": "bradford-fitness",
+    "privacy": "public",
+    "platforms": ["ios", "android", "web"],
+    "scheme": "bradford-fitness",
+    "description": "AI-powered personalized fitness and nutrition planning application that creates evidence-based workout and meal plans tailored to individual health profiles.",
+    "keywords": ["fitness", "nutrition", "AI", "health", "workout", "meal planning"],
+    "primaryColor": "#4F46E5",
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 30000
+    },
+    "runtimeVersion": "1.0.0"
+  }
+}
