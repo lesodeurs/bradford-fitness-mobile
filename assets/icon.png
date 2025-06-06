@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Square</title>
+    <!-- Load Tailwind CSS for easy styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles to ensure the body takes full height and uses Inter font */
+        body {
+            font-family: 'Inter', sans-serif;
+            height: 100vh; /* Set body to full viewport height */
+            margin: 0; /* Remove default body margin */
+            display: flex; /* Use flexbox for centering */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            background-color: #f0f0f0; /* Light grey background for contrast */
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gray-100">
+    <!-- Main container for the blue square -->
+    <div class="w-[1024px] h-[1024px] bg-blue-500 rounded-lg shadow-lg">
+        <!-- The blue square itself with specific dimensions, blue background, rounded corners, and shadow -->
+        <!-- The text content has been removed from here -->
+    </div>
+</body>
+</html>
