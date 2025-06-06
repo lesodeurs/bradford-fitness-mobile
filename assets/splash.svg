@@ -1,6 +1,0 @@
-<svg width="1024" height="1792" viewBox="0 0 1024 1792" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1024" height="1792" fill="#4F46E5"/>
-  <circle cx="512" cy="896" r="120" fill="white" opacity="0.9"/>
-  <path d="M512 800C478 800 452 826 452 860V932H412C378 932 352 958 352 992V1088C352 1122 378 1148 412 1148H612C646 1148 672 1122 672 1088V992C672 958 646 932 612 932H572V860C572 826 546 800 512 800Z" fill="white"/>
-  <text x="512" y="1200" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="48" font-weight="bold">Bradford Fitness AI</text>
-</svg>
