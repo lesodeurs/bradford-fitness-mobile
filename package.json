@@ -2,44 +2,7 @@
   "name": "bradford-fitness-mobile",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "build:ios": "eas build --platform ios",
-    "build:android": "eas build --platform android",
-    "build:all": "eas build --platform all",
-    "submit:ios": "eas submit --platform ios",
-    "submit:android": "eas submit --platform android"
-  },
   "dependencies": {
-    "expo": "~51.0.28",
-    "@expo/webpack-config": "^19.0.1",
-    "@expo/vector-icons": "^14.0.2",
-    "react": "18.2.0",
-    "react-native": "0.74.5",
-    "expo-status-bar": "~1.12.1",
-    "@react-navigation/native": "^6.1.9",
-    "@react-navigation/bottom-tabs": "^6.5.11",
-    "@react-navigation/stack": "^6.3.20",
-    "react-native-screens": "~3.31.1",
-    "react-native-safe-area-context": "4.10.5",
-    "@react-native-async-storage/async-storage": "1.23.1",
-    "@tanstack/react-query": "^5.0.0",
-    "react-hook-form": "^7.45.0",
-    "expo-linear-gradient": "~13.0.2",
-    "expo-font": "~12.0.9",
-    "expo-notifications": "~0.28.15"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.20.0",
-    "@types/react": "~18.2.45",
-    "@typescript-eslint/eslint-plugin": "^7.7.0",
-    "@typescript-eslint/parser": "^7.7.0",
-    "eslint": "^8.57.0",
-    "eslint-config-expo": "^7.0.0",
-    "typescript": "~5.3.3"
-  },
-  "private": true
+    "@expo/vector-icons": "^14.0.2"
+  }
 }
